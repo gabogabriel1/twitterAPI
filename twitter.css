@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #002B5B;
+    font-family: 'Rubik', 'sans-serif';
+}
+h1{
+    color: #8FE3CF;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.button{
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2B4865;
+    border-color: transparent;
+    color: white;
+    width: 200px;
+}
+.tweetCard{
+    color: white;
+    width: 600px;
+    background-color: #2B4865;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.tweetCard h2{
+    text-align: center;
+}
+.tweetCard div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tweetButton{
+    font-family: 'Rubik', 'sans-serif';
+    width: fit-content;
+    color: white;
+    font-size: 16px;
+    background-color: #256D85;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
